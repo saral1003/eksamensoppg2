@@ -1,0 +1,183 @@
+.container {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background-color: rgb(90, 65, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+table div {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+table div:hover {
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#bilde2, #bilde3 {
+    position: center;
+    left: 30px;
+    top: 40px;
+}
+
+#content {
+    background-color: beige;
+    min-height: 100%;
+    padding: 20px;
+}
+
+h1 {
+    color: brown;
+    text-transform: uppercase;
+    width: 400px;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: brown;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    #table1 {
+        visibility: collapse;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #table2 {
+        visibility: collapse;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+#table1 p {
+    margin-left: 20px;
+}
+
+#table2 {
+    position: relative;
+    top: -50px;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#bilde1 {
+    background-image: url("./bilder/pizza1.avif");
+    background-size: 250px;
+}
+
+#bilde2 {
+    background-image: url("./bilder/pizza2.avif");
+    background-size: 200px;
+}
+
+#bilde3 {
+    background-image: url("./bilder/pizza3.avif");
+    background-size: 160px;
+}
+
+h3, h4 {
+    margin-left: 20px;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+#button {
+    border: hidden;
+    border-radius: 10px;
+    background-color: rgba(105, 76, 73, 0.856);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#button:hover {
+    background-color: rgba(133, 99, 94, 0.856);
+}
+
+#sales h3 {
+    margin-left: 0px;
+    color: brown;
+    text-transform: uppercase;
+}
+
+aside {
+    padding-bottom: 50px;
+}
+
+
+/* Pop-up boksen */
+
+#gray {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#info p {
+    margin: 20px;
+}
+
+#info {
+    position: absolute;
+    top: -100%;
+    left: 15%;
+    width: 400px;
+    height: fit-content;
+    visibility: hidden;
+    z-index: 1000;
+    background-color: beige;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+
+#infoBilde1, #infoBilde2, #infoBilde3 {
+    background-size: 400px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#infoBilde1 {
+    background-image: url("./bilder/pizza1.avif");
+}
+
+#infoBilde2 {
+    background-image: url("./bilder/pizza2.avif");
+}
+
+#infoBilde3 {
+    background-image: url("./bilder/pizza3.avif");
+}
