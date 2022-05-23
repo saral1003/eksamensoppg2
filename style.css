@@ -151,9 +151,10 @@ aside {
 }
 
 #info {
-    position: absolute;
+    position: fixed;
     top: -100%;
-    left: 15%;
+    left: 50%;
+    margin-left: -200px;
     width: 400px;
     height: fit-content;
     visibility: hidden;
