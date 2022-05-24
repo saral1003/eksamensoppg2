@@ -9,7 +9,8 @@ let buttonDiv = document.getElementById("buttonDiv");
 function bilde1() {
     gray.style.visibility = 'visible';
     info.style.visibility = 'visible';
-    info.style.top = '300px'
+    info.style.top = '70%'
+    info.style.marginTop = '-500px';
     info.innerHTML = `<div id="info1">
     <div id="infoBilde1"></div>
     <h3>Pepperoni pizza</h3>
@@ -21,7 +22,8 @@ function bilde1() {
 function bilde2() {
     gray.style.visibility = 'visible';
     info.style.visibility = 'visible';
-    info.style.top = '300px'
+    info.style.top = '70%'
+    info.style.marginTop = '-500px';
     info.innerHTML = `<div id="info2">
     <div id="infoBilde2"></div>
     <h3>Vegetarian pizza with like smoked sausage</h3>
@@ -33,7 +35,8 @@ function bilde2() {
 function bilde3() {
     gray.style.visibility = 'visible';
     info.style.visibility = 'visible';
-    info.style.top = '300px'
+    info.style.top = '70%'
+    info.style.marginTop = '-500px';
     info.innerHTML = `<div id="info3">
     <div id="infoBilde3"></div>
     <h3>Hawaiian pizza with chicken</h3>
