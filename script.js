@@ -1,6 +1,6 @@
 // Leser inn elementer
 let gray = document.getElementById("gray");
-let color = document.getElementById("info");
+let info = document.getElementById("info");
 let sales = document.getElementById("sales");
 let button = document.getElementById("button");
 let buttonDiv = document.getElementById("buttonDiv");
